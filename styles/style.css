@@ -1,0 +1,55 @@
+        /* Universal */
+
+body{
+    font-family: 'Work Sans', sans-serif;
+
+}
+ /* header part nav */
+ .header{
+    background-color:  rgba(255, 144, 14, 0.1);
+    
+ }
+ .nav-header{
+    font-size: 30px;
+    font-weight: 800;
+    margin-left: 140px;
+    margin-top: 50px;
+ }
+ .navbar{
+    display: flex;
+    justify-content: space-between;
+   
+ }
+ ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    margin-right: 243px;
+    margin-top: 60px;
+ }
+ ul a{
+    color: #424242;
+    text-decoration: none;
+    justify-content: space-between;
+ }
+
+
+ .header-description{
+    text-align: center;
+ }
+ .banner-header{
+            font-size: 50px;
+            font-weight: 700;
+            color: #131313;
+            line-height: 30px;
+ }
+ .banner-description{
+        color: #727272;
+ }
+ .btn-primary{
+    background-color: #FF900E;;
+    color: #FFFFFF;
+    border-radius: 8px;
+    border: 0px;
+    padding: 21px 25px;
+ }
