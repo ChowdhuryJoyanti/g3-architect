@@ -36,6 +36,7 @@ body{
 
  .header-description{
     text-align: center;
+  
  }
  .banner-header{
             font-size: 50px;
@@ -53,3 +54,40 @@ body{
     border: 0px;
     padding: 21px 25px;
  }
+ .banner-image  img{
+        width: 1350px;
+        height: 600px;
+        margin: 40px;
+        padding: 40px;
+           
+            
+ }
+        .banner-image{
+
+        }
+
+        /* main part stat */
+        .container{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            /* gap: 20px; */
+            padding: 30px;
+            margin-top: -48px;
+        }
+        .quick-list{
+            /* text-align: center;  */
+            align-items:center;
+            margin-top: 200px;
+        }
+        .quick-feature{
+            font-size: 45px;
+            font-size: 500;
+            line-height: 20px;
+         
+        }
+        .quick{
+            color: #727272;
+        }
+        .Features{
+            color: #FF900E;
+        }
