@@ -78,6 +78,7 @@ body{
             /* text-align: center;  */
             align-items:center;
             margin-top: 200px;
+            padding-left: 50px;
         }
         .quick-feature{
             font-size: 45px;
@@ -119,7 +120,7 @@ body{
         .dextop-mobile{
          margin-top: 20px;
          width: 75%;
-         padding: 7px;
+         padding: 15px;
          border:2px solid black;
          border-radius: 8px;
          border: 0px;
