@@ -141,3 +141,74 @@ body{
         .experience{
          font-size: 25px;
         }
+        /* some facts part start */
+        .some-fact{
+            margin-left: 60px;
+        }
+        .fatcs{
+         font-size: 30px;
+         font-weight: 700;
+        }
+        
+        .icons{
+         margin-left: 100px;
+         display: grid;
+         grid-template-columns: repeat(4,1fr);
+         gap: 50px;
+        
+        
+         padding: 30px;
+        }
+        .award-winning:hover{
+         background-color: coral;
+         height: 200px;
+         width: 200px;
+         font-size: 25px;
+       
+        }
+        .award-winning{
+         height: 150px;
+         width: 150px;
+         text-align: center;
+         border: 3px solid  #FF900E;
+         border-radius: 9px;
+        
+        }
+         /* our sponsors part  */
+         .our-sponsor{
+            margin: 20px;
+            padding: 20px 30px;
+         }
+        .sponors-company{
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        margin: 20px;
+        padding: 20px;
+        mix-blend-mode: luminosity;
+        }
+       
+        .sponsors-header{
+            text-align: center;
+            color: #131313; 
+            font-size: 30px;
+            font-weight: 700;
+        }
+        .sponsor{
+         text-align: center;
+        }
+        /* footer section */
+        .footer{
+         background-color: #FFF4E7;
+         height: 100px;
+         text-align: center;
+         margin: 60px;
+         border-radius: 5px;
+       
+         
+        }
+        .copyright{
+         color: #727272;
+         padding-top: 40px;
+        
+        }
+       
