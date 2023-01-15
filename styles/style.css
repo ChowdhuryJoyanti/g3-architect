@@ -32,8 +32,7 @@ body{
     text-decoration: none;
     justify-content: space-between;
  }
-
-
+ 
  .header-description{
     text-align: center;
   
@@ -58,14 +57,9 @@ body{
         width: 1350px;
         height: 600px;
         margin: 40px;
-        padding: 40px;
-           
-            
+        padding: 40px;         
  }
-        .banner-image{
-
-        }
-
+    
         /* main part stat */
         .container{
             display: grid;
@@ -188,8 +182,14 @@ body{
         padding: 20px;
        
         }
+       
         .img-fluid{
             padding: 8px;
+           
+        }
+        .image-fluid{
+            opacity: 40%; 
+            filter: grayscale(100%);
         }
        
         .sponsors-header{
