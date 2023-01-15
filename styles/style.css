@@ -97,7 +97,7 @@ body{
          padding: 20px;
          display: grid;
          grid-template-columns: repeat(2, 1fr);
-         grid-row-gap: 20px ;
+         /* grid-row-gap: 20px ; */
         }
         /* .features-love{
          margin: 5px;
@@ -117,11 +117,27 @@ body{
         
         }
         .dextop-mobile{
+         margin-top: 20px;
          width: 75%;
          padding: 7px;
          border:2px solid black;
          border-radius: 8px;
          border: 0px;
-         box-shadow: 7px 7px 45px gray;
+         box-shadow: 10px 10px 40px gray;
          padding-right: 50px;
+        }
+        .button{
+         position: relative;
+         right: 70px;
+         margin-top: -110px;
+         
+
+        }
+        .experiance-time{
+               font-size: 65px;
+               line-height: 35px;
+               padding: 46px 42px;
+        }
+        .experience{
+         font-size: 25px;
         }
