@@ -289,6 +289,13 @@ body{
                         margin-top: 10px;
                         padding: 10px;
            }
+
+           .our-dedication{
+                        grid-template-columns: repeat(1,1fr);       
+           }
+           .extra{
+            margin: 0;
+        }
            .icons{
             grid-template-columns: repeat(1, 1fr);
            }
@@ -328,6 +335,13 @@ body{
             margin-top: 10px;
             padding: 10px;
       }
+      .our-dedication{
+        grid-template-columns: repeat(2,1fr);
+        
+    }
+    .extra{
+        margin: 0;
+    }
          .icons{
              grid-template-columns: repeat(2, 1fr);
         }
