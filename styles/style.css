@@ -49,6 +49,7 @@ body{
  .btn-primary{
     background-color: #FF900E;;
     color: #FFFFFF;
+    font-weight: 700;
     border-radius: 8px;
     border: 0px;
     padding: 21px 25px;
@@ -137,6 +138,41 @@ body{
         .experience{
          font-size: 25px;
         }
+        /* our work  */
+        .work-img{
+                height: 300px;
+                width: 100%;
+                border-radius: 7px;
+        }
+        .work-img:hover{
+            
+        }
+        .our-works{
+            margin: 40px;
+            padding: 20px;
+        }
+        .dedication{
+            color: #FF900E;
+        }
+        .work{
+            text-align: center;
+        }
+        .special{
+            border: 2px solid rgb(223, 210, 186);
+        }
+        .our-dedication{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+           margin-bottom: 20px;
+            
+        }
+        .extra{
+            padding: 20px 60px;
+            margin-left: 500px;
+            
+        }
+
         /* some facts part start */
         .some-fact{
             margin-left: 60px;
